@@ -1,0 +1,101 @@
+---
+title: "Introducción"
+subtitle: "tomado de LatinR2024Workshop"
+format: revealjs
+editor: visual
+---
+
+## ¿Por qué git?
+
+¿Tenés algo así en tu computadora?
+
+```         
+/home/yani/Documents/Clases/programacion
+├── script.R
+├── tp.Rmd
+├── tp_corregido.Rmd
+├── tp_corregido2.Rmd
+├── tp_final.Rmd
+├── tp_finalfinal.Rmd
+├── este_es_el_final.Rmd
+├── juro_que_esta_es_la_ultima_version_del_tp.Rmd
+└── FINAL.Rmd
+```
+
+Probablemente todos lo tenemos, o tuvimos algo así en algún momento, porque necesitamos guardar nuestro trabajo pero seguir teniendo acceso a versiones anteriores.
+
+Existe una solución para esto.
+
+## ¿Qué es Git?
+
+[Git](https://git-scm.com/) es un sistema de control de versiones distribuido que permite a múltiples personas trabajar en un proyecto al mismo tiempo sin sobrescribir el trabajo de los demás. Con Git, cada cambio se guarda en un historial, lo que permite volver a versiones anteriores si es necesario. Además, facilita la colaboración y la integración de cambios de diferentes colaboradores.
+
+![Captura de pantalla - Git](img/git.png)
+
+## ¿Qué es GitHub?
+
+[GitHub](https://github.com/) es una plataforma basada en la web que utiliza Git para el control de versiones y la colaboración. Permite a los desarrolladores almacenar sus repositorios de Git en la nube, facilitando el acceso y la colaboración desde cualquier lugar. GitHub también ofrece herramientas adicionales como gestión de proyectos, seguimiento de problemas (*issues*), y revisión de código.
+
+![Captura de pantalla - Git](github.png)
+
+## Beneficios de usar Git y GitHub
+
+-   **Colaboración**: Permite a múltiples investigadores trabajar en el mismo proyecto simultáneamente, ideal para colaboraciones entre instituciones o grupos de investigación.
+-   **Historial de cambios**: Mantiene un registro detallado de todos los cambios realizados en el proyecto, fundamental para la reproducibilidad científica.
+-   **Reversión de cambios**: Facilita la recuperación de versiones anteriores de análisis o manuscritos.
+-   **Documentación**: Ayuda a mantener un registro claro de las decisiones metodológicas y cambios en el análisis de datos.
+-   **Comunicación**: Mejora la comunicación entre colaboradores y facilita el seguimiento de las contribuciones de cada investigador.
+-   **Ciencia abierta**: Promueve la transparencia y reproducibilidad de la investigación, permitiendo compartir código y datos de manera efectiva.
+
+## Conclusión
+
+Git y GitHub son herramientas valiosas para la comunidad científica. Aunque originalmente fueron diseñadas para el desarrollo de software, son igualmente útiles para gestionar proyectos de investigación. Ya sea que estés trabajando en análisis estadísticos, manuscritos científicos o códigos de procesamiento de datos, estas herramientas te ayudarán a mantener un flujo de trabajo organizado y colaborativo. En este taller, aprenderás a utilizar Git y GitHub para mejorar la reproducibilidad y transparencia de tu investigación.
+
+## Crear una cuenta en GitHub {.unnumbered}
+
+GitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.
+
+-   Ir a <https://github.com/>.
+
+-   Hacer clik en *Registrarse* or *Sign up*.
+
+-   Seguir las indicaciones para crear la cuenta personal.
+
+-   Uno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta.
+
+## Nuestro perfil
+
+Una vez que creamos una cuenta en GitHub, tenemos nuestro perfil publico en internet.
+
+La página de tu perfil cuenta la historia de tu trabajo a través de los repositorios en los que te interesas, las colaboraciones que has realizado y las conversaciones que has tenido.
+
+## Informacion general:
+
+-   Lugar de trabajo: [\@ropensci](https://github.com/ropensci)
+-   Localizacion: Santa Rosa, La Pampa, Argentina
+-   Zona horaria: 12:51 (UTC -03:00)
+-   Sitio web: <https://yabellini.netlify.app>
+-   ORCID: <https://orcid.org/0000-0002-4522-7466>
+-   Diversas redes sociales como Mastodon, LinkedIn, BlueSky y Youtube.
+
+## Notificaciones y logros:
+
+Destacan tu actividad y se muestran si utilizas GitHub Pro o si participas en programas como Arctic Code Vault, GitHub Sponsors o GitHub Stars.
+
+::: ejercicio
+En la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en *Your profile* (Tu perfil).
+
+Entra a tu perfil, clique en "Edit Profile", y completa con tus datos relevantes, como por ejemplo una bio, tus pronombres, tus redes sociales, donde estas y tu zona horaria.
+:::
+
+## Install git
+
+<https://git-scm.com/downloads>
+
+## Podemos ejecutar git desde R studio en nuestra compu local
+
+En la terminal podemos revisar dónde esta git y debemos revisar si esta en nuestros settings.
+
+Podemos crear un projecto y hacer nuestras modificacaciones localmente:
+
+which git.exe
