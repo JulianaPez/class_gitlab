@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="gitclass_files/libs/clipboard/clipboard.min.js"></script>
-<script src="gitclass_files/libs/quarto-html/tabby.min.js"></script>
-<script src="gitclass_files/libs/quarto-html/popper.min.js"></script>
-<script src="gitclass_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="gitclass_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="gitclass_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="gitclass_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../maevolab.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <title>Introducción</title>
+  <title>Práctica Git-Git Hub Maevolab –    Introducción a Git y Github</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="gitclass_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="gitclass_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -28,11 +29,11 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="gitclass_files/libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
-  <link href="gitclass_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="gitclass_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="gitclass_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="gitclass_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -126,8 +127,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Introducción</h1>
-  <p class="subtitle">tomado de LatinR2024Workshop</p>
+  <h1 class="title"><p><img data-src="img/ggit.png" class="quarto-figure quarto-figure-center" style="width:40.0%"> <br> Introducción a Git y Github</p></h1>
+  <p class="subtitle">Juliana Herrera</p>
 
 <div class="quarto-title-authors">
 </div>
@@ -135,7 +136,7 @@
 </section>
 <section id="por-qué-git" class="slide level2">
 <h2>¿Por qué git?</h2>
-<p>¿Tenés algo así en tu computadora?</p>
+<p>¿Tienes los archivos asi en tu compu?</p>
 <pre><code>/home/yani/Documents/Clases/programacion
 ├── script.R
 ├── tp.Rmd
@@ -153,12 +154,20 @@
 <h2>¿Qué es Git?</h2>
 <p><a href="https://git-scm.com/">Git</a> es un sistema de control de versiones distribuido que permite a múltiples personas trabajar en un proyecto al mismo tiempo sin sobrescribir el trabajo de los demás. Con Git, cada cambio se guarda en un historial, lo que permite volver a versiones anteriores si es necesario. Además, facilita la colaboración y la integración de cambios de diferentes colaboradores.</p>
 
-<img data-src="img/git.png" class="r-stretch quarto-figure-center"><p class="caption">Captura de pantalla - Git</p></section>
+<img data-src="img/git.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
 <section id="qué-es-github" class="slide level2">
 <h2>¿Qué es GitHub?</h2>
 <p><a href="https://github.com/">GitHub</a> es una plataforma basada en la web que utiliza Git para el control de versiones y la colaboración. Permite a los desarrolladores almacenar sus repositorios de Git en la nube, facilitando el acceso y la colaboración desde cualquier lugar. GitHub también ofrece herramientas adicionales como gestión de proyectos, seguimiento de problemas (<em>issues</em>), y revisión de código.</p>
 
-<img data-src="github.png" class="r-stretch quarto-figure-center"><p class="caption">Captura de pantalla - Git</p></section>
+<img data-src="img/github.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
+<section id="ciclo-del-versionamiento" class="slide level2">
+<h2>Ciclo del versionamiento</h2>
+
+<img data-src="img/control.png" style="width:100.0%" class="r-stretch quarto-figure-center"><p class="caption">tomado de git-developing-software-together</p></section>
+<section id="flujo-de-trabajo" class="slide level2">
+<h2>Flujo de trabajo:</h2>
+
+<img data-src="img/work.png" style="width:100.0%" class="r-stretch quarto-figure-center"><p class="caption">tomado de git-developing-software-together</p></section>
 <section id="beneficios-de-usar-git-y-github" class="slide level2">
 <h2>Beneficios de usar Git y GitHub</h2>
 <ul>
@@ -174,7 +183,7 @@
 <h2>Conclusión</h2>
 <p>Git y GitHub son herramientas valiosas para la comunidad científica. Aunque originalmente fueron diseñadas para el desarrollo de software, son igualmente útiles para gestionar proyectos de investigación. Ya sea que estés trabajando en análisis estadísticos, manuscritos científicos o códigos de procesamiento de datos, estas herramientas te ayudarán a mantener un flujo de trabajo organizado y colaborativo. En este taller, aprenderás a utilizar Git y GitHub para mejorar la reproducibilidad y transparencia de tu investigación.</p>
 </section>
-<section id="crear-una-cuenta-en-github" class="slide level2 unnumbered">
+<section id="crear-una-cuenta-en-github" class="slide level2">
 <h2>Crear una cuenta en GitHub</h2>
 <p>GitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.</p>
 <ul>
@@ -189,57 +198,82 @@
 <p>Una vez que creamos una cuenta en GitHub, tenemos nuestro perfil publico en internet.</p>
 <p>La página de tu perfil cuenta la historia de tu trabajo a través de los repositorios en los que te interesas, las colaboraciones que has realizado y las conversaciones que has tenido.</p>
 </section>
-<section id="informacion-general" class="slide level2">
-<h2>Informacion general:</h2>
+<section id="información-general" class="slide level2">
+<h2>Información general:</h2>
 <ul>
-<li>Lugar de trabajo: <a href="https://github.com/ropensci">@ropensci</a></li>
-<li>Localizacion: Santa Rosa, La Pampa, Argentina</li>
+<li>Lugar de trabajo: INECOL</li>
+<li>Localizacion: Xalapa, Veraxcruz</li>
 <li>Zona horaria: 12:51 (UTC -03:00)</li>
-<li>Sitio web: <a href="https://yabellini.netlify.app" class="uri">https://yabellini.netlify.app</a></li>
-<li>ORCID: <a href="https://orcid.org/0000-0002-4522-7466" class="uri">https://orcid.org/0000-0002-4522-7466</a></li>
-<li>Diversas redes sociales como Mastodon, LinkedIn, BlueSky y Youtube.</li>
+<li>Sitio web: <a href="https://julianapez.github.io/JHerrera-cv/" class="uri">https://julianapez.github.io/JHerrera-cv/</a></li>
+<li>ORCID:<a href="https://orcid.org/0000-0002-6946-8950" class="uri">https://orcid.org/0000-0002-6946-8950</a></li>
+<li>LinkedIn, BlueSky y Youtube.</li>
 </ul>
 </section>
 <section id="notificaciones-y-logros" class="slide level2">
 <h2>Notificaciones y logros:</h2>
-<p>Destacan tu actividad y se muestran si utilizas GitHub Pro o si participas en programas como Arctic Code Vault, GitHub Sponsors o GitHub Stars.</p>
-<div class="ejercicio">
-<p>En la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en <em>Your profile</em> (Tu perfil).</p>
-<p>Entra a tu perfil, clique en “Edit Profile”, y completa con tus datos relevantes, como por ejemplo una bio, tus pronombres, tus redes sociales, donde estas y tu zona horaria.</p>
-</div>
+<p>Destacan tu actividad y se muestran si utilizas GitHub</p>
 </section>
-<section id="install-git" class="slide level2">
-<h2>Install git</h2>
+<section id="ejercicio" class="slide level2">
+<h2>Ejercicio</h2>
+<p><em>En la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en Your profile (Tu perfil).</em></p>
+<p><em>Entra a tu perfil, clique en “Edit Profile”, y completa con tus datos relevantes, como por ejemplo una bio, tus pronombres, tus redes sociales, donde estas y tu zona horaria.</em></p>
+</section>
+<section id="instalar-git-localmente" class="slide level2">
+<h2>Instalar git localmente</h2>
+<p>Vamos a realizar la instalación para nuestro sistema operativo desde:</p>
 <p><a href="https://git-scm.com/downloads" class="uri">https://git-scm.com/downloads</a></p>
 </section>
 <section id="podemos-ejecutar-git-desde-r-studio-en-nuestra-compu-local" class="slide level2">
 <h2>Podemos ejecutar git desde R studio en nuestra compu local</h2>
-<p>En la terminal podemos revisar dónde esta git y debemos revisar si esta en nuestros settings.</p>
-<p>Podemos crear un projecto y hacer nuestras modificacaciones localmente:</p>
+<p>Debemos revisar dónde esta git y si esta configurado en nuestros settings.</p>
 <p>which git.exe</p>
+</section>
+<section id="vamos-a-crear-un-proyecto-y-hacer-nuestras-modificacaciones-localmente" class="slide level2">
+<h2>Vamos a crear un proyecto y hacer nuestras modificacaciones localmente</h2>
+<ol type="1">
+<li>Crear proyecto</li>
+<li>Instalar paquetes: <code>install.packages (c("usethis","gitcreds"))</code></li>
+<li>conf git: <code>use_git_config(user.name = "JuliPez", user.email = "juliana.herrera.p@gmail.com")</code></li>
+</ol>
+</section>
+<section id="o-conectarnos-a-github" class="slide level2">
+<h2>O conectarnos a github</h2>
+<ol type="1">
+<li>Crear token: <code>create_github_token()</code></li>
+<li>Conectar con Github<code>gitcreds_set()</code></li>
+<li>Conocer mi conexión <code>gh_token_help()</code></li>
+<li>Conectar mi proyecto <code>use_github()</code></li>
+</ol>
+</section>
+<section id="o-conectarnos-con-un-proyecto-creado-en-git-hub." class="slide level2">
+<h2>O conectarnos con un proyecto creado en Git hub.</h2>
+<h3 id="otros-recursos-interesantes">Otros recursos interesantes:</h3>
+<p><a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a></p>
+<p><a href="https://paocorrales.github.io/git-developing-software-together/">git-developing-software-together</a></p>
+
 
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
-
+<p>Tomado curso Latin R 2024</p>
 </div>
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="gitclass_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="gitclass_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="gitclass_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="gitclass_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="gitclass_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="gitclass_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="gitclass_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="gitclass_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="gitclass_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="gitclass_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

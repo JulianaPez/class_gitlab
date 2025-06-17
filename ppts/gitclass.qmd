@@ -42,13 +42,13 @@ Existe una solución para esto.
 
 ![](img/github.png){fig-align="center" width="100%"}
 
-
 ## Ciclo del versionamiento
 
-![tomado de git-developing-software-together ](img/control.png){fig-align="center" width="100%"}
+![tomado de git-developing-software-together](img/control.png){fig-align="center" width="100%"}
 
 ## Flujo de trabajo:
-![tomado de git-developing-software-together ](img/work.png){fig-align="center" width="100%"}
+
+![tomado de git-developing-software-together](img/work.png){fig-align="center" width="100%"}
 
 ## Beneficios de usar Git y GitHub
 
@@ -100,9 +100,9 @@ Destacan tu actividad y se muestran si utilizas GitHub
 
 *Entra a tu perfil, clique en "Edit Profile", y completa con tus datos relevantes, como por ejemplo una bio, tus pronombres, tus redes sociales, donde estas y tu zona horaria.*
 
-## Instalar git localmente  
+## Instalar git localmente
 
-Vamos a realizar la instalación para nuestro sistema operativo desde: 
+Vamos a realizar la instalación para nuestro sistema operativo desde:
 
 <https://git-scm.com/downloads>
 
@@ -120,17 +120,15 @@ which git.exe
 
 ## O conectarnos a github
 
-1. Crear token: `create_github_token()` 
-2. Conectar con Github`gitcreds_set()`
-3. Conocer mi conexión `gh_token_help()` 
-4. Conectar mi proyecto `use_github()` 
+1.  Crear token: `create_github_token()`
+2.  Conectar con Github`gitcreds_set()`
+3.  Conocer mi conexión `gh_token_help()`
+4.  Conectar mi proyecto `use_github()`
 
 ## O conectarnos con un proyecto creado en Git hub.
 
-
-
 ### Otros recursos interesantes:
 
-[Happy Git and GitHub for the useR](https://happygitwithr.com/) 
+[Happy Git and GitHub for the useR](https://happygitwithr.com/)
 
 [git-developing-software-together](https://paocorrales.github.io/git-developing-software-together/)
