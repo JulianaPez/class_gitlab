@@ -221,7 +221,7 @@
     "href": "ppts/collabLD.html#prs---individual",
     "title": "Trabajo Colaborativo",
     "section": "PRs - Individual",
-    "text": "PRs - Individual\nAbrir un PR en el archivo maevo2025.qmd y agregar una diapositiva con su nombre y la imagen de algún animal que les guste (ver el ejemplo de Luis)\n\ntrabajar con ramas\ncuando se integre su cambio, correr usethis::pr_finish()\n\n\nSi terminaron rápido, mandar un PR modificando la apariencia de la presentación"
+    "text": "PRs - Individual\nAbrir un PR en el archivo maevo2025.qmd y agregar una diapositiva con su nombre, enlace perfil de Git-hub y la imagen de algún animal que les guste (ver el ejemplo de Luis)\n\ntrabajar con ramas\ncuando se integre su cambio, correr usethis::pr_finish()\n\n\nSi terminaron rápido, mandar un PR modificando la apariencia de la presentación"
   },
   {
     "objectID": "ppts/collabLD.html#git-push",
