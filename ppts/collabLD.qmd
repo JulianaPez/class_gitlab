@@ -119,7 +119,7 @@ sample(para_equipos,floor(length(para_equipos)/2))
 
 ## PRs - Individual
 
-Abrir un PR en el archivo `maevo2025.qmd` y agregar una diapositiva con su nombre, enlace perfil de Git-hub y la imagen de algún animal que les guste (ver el ejemplo de Luis)
+Abrir un PR en el archivo `maevo2025.qmd` y agregar una diapositiva con su nombre, el enlace perfil de Git-hub y la imagen de algún animal que les guste (ver el ejemplo de Luis)
 
 - trabajar con ramas
 - cuando se integre su cambio, correr `usethis::pr_finish()`

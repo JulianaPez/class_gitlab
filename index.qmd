@@ -25,5 +25,5 @@ M. en C. Juliana Herrera Pérez
 
 
 [📆   19 de Junio, 2025]{.code}\
-[ 🕛 12:00 - 1:30 2:30 - 4:00]{.code}\
+[🕛  12:00 - 1:30 2:30 - 4:00]{.code}\
 [🏨  Sala de video-conferencia Edificio E]{.code}\

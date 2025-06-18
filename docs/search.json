@@ -18,7 +18,7 @@
     "href": "index.html#material",
     "title": "Materiales del curso",
     "section": "Material",
-    "text": "Material\nIntroduccion\nTrabajo Colaborativo\nPresentación p/ ejercicio\n📆   19 de Junio, 2025\n🕛 12:00 - 1:30 2:30 - 4:00\n🏨  Sala de video-conferencia Edificio E"
+    "text": "Material\nIntroduccion\nTrabajo Colaborativo\nPresentación p/ ejercicio\n📆   19 de Junio, 2025\n🕛  12:00 - 1:30 2:30 - 4:00\n🏨  Sala de video-conferencia Edificio E"
   },
   {
     "objectID": "ppts/gitclass.html#por-qué-git",
@@ -221,7 +221,7 @@
     "href": "ppts/collabLD.html#prs---individual",
     "title": "Trabajo Colaborativo",
     "section": "PRs - Individual",
-    "text": "PRs - Individual\nAbrir un PR en el archivo maevo2025.qmd y agregar una diapositiva con su nombre, enlace perfil de Git-hub y la imagen de algún animal que les guste (ver el ejemplo de Luis)\n\ntrabajar con ramas\ncuando se integre su cambio, correr usethis::pr_finish()\n\n\nSi terminaron rápido, mandar un PR modificando la apariencia de la presentación"
+    "text": "PRs - Individual\nAbrir un PR en el archivo maevo2025.qmd y agregar una diapositiva con su nombre, el enlace perfil de Git-hub y la imagen de algún animal que les guste (ver el ejemplo de Luis)\n\ntrabajar con ramas\ncuando se integre su cambio, correr usethis::pr_finish()\n\n\nSi terminaron rápido, mandar un PR modificando la apariencia de la presentación"
   },
   {
     "objectID": "ppts/collabLD.html#git-push",
@@ -242,7 +242,7 @@
     "href": "ppts/maevo2025.html#luis",
     "title": "Maevo Lab 2025",
     "section": "Luis",
-    "text": "Luis"
+    "text": "Luis\nLuisDVA"
   },
   {
     "objectID": "ppts/maevo2025.html",
