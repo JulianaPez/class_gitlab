@@ -21,7 +21,7 @@ format:
 ::: incremental
 -   Nuestra propia copia del repositorio (en la nube)
 -   Copia local del repositorio (nuestra máquina)
--   Poder seguir los cambios en el repositorio (ajeno) de interés
+-   Poder seguir los cambios en el repositorio (ajeno) de interés 
 :::
 
 ## 
