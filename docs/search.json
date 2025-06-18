@@ -143,15 +143,15 @@
     "objectID": "ppts/collabLD.html#pull-request",
     "href": "ppts/collabLD.html#pull-request",
     "title": "Trabajo Colaborativo",
-    "section": "",
-    "text": "request for the maintainer to pull your changes into their repo"
+    "section": "Pull Request",
+    "text": "Pull Request\n\nrequest for the maintainer to pull your changes into their repo"
   },
   {
     "objectID": "ppts/collabLD.html#desarrollando-en-comunidad-github",
     "href": "ppts/collabLD.html#desarrollando-en-comunidad-github",
     "title": "Trabajo Colaborativo",
     "section": "Desarrollando en comunidad (GitHub)",
-    "text": "Desarrollando en comunidad (GitHub)\n. . .\n\nNecesitamos\n\n\nNuestra propia copia del repositorio (en la nube)\nCopia local del repositorio (nuestra máquina)\nPoder seguir los cambios en el repositorio (ajeno) de interés"
+    "text": "Desarrollando en comunidad (GitHub)\n\nNecesitamos\n\n\nNuestra propia copia del repositorio (en la nube)\nCopia local del repositorio (nuestra máquina)\nPoder seguir los cambios en el repositorio (ajeno) de interés"
   },
   {
     "objectID": "ppts/collabLD.html#section",
@@ -179,7 +179,7 @@
     "href": "ppts/collabLD.html#git-cli",
     "title": "Trabajo Colaborativo",
     "section": "git cli",
-    "text": "git cli\n\n\n\ngit cheat sheet - Julia Evans"
+    "text": "git cli\n\ngit cheat sheet - Julia Evans"
   },
   {
     "objectID": "ppts/collabLD.html#usethis",
@@ -200,7 +200,7 @@
     "href": "ppts/collabLD.html#issues",
     "title": "Trabajo Colaborativo",
     "section": "issues",
-    "text": "issues\n\n“asuntos” sobre el contenido de un repositorio\n\nrecordatorios para quien esté a cargo\nerrores o bugs\nsugerencias de funcionalidad"
+    "text": "issues\n“asuntos” sobre el contenido de un repositorio\n\nrecordatorios para quien esté a cargo\nerrores o bugs\nsugerencias de funcionalidad"
   },
   {
     "objectID": "ppts/collabLD.html#issues-práctica",
@@ -214,7 +214,7 @@
     "href": "ppts/collabLD.html#issues---práctica",
     "title": "Trabajo Colaborativo",
     "section": "issues - práctica",
-    "text": "issues - práctica\n\nsample(c(\"Gera\",\"Mons\",\"Kevin\",\"Diana\",\"Robert\"),2)\n\n\n[1]* abre un issue sobre el contenido de codigo-ej/visscript.R\n[2]* abre un pull request arreglando el problema\n\n\npara_equipos &lt;- c(\"Gera\",\"Mons\",\"Kevin\",\"Juli\",\"Diana\",\"Robert\",\"Fabricio\")\nsample(para_equipos,floor(length(para_equipos)/2))"
+    "text": "issues - práctica\n\n\n\n\n\n\n\n\n\n[1]* abre un issue sobre el contenido de codigo-ej/visscript.R\n[2]* abre un pull request arreglando el problema"
   },
   {
     "objectID": "ppts/collabLD.html#prs---individual",
