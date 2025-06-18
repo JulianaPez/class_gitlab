@@ -1,0 +1,130 @@
+---
+title: "Trabajo Colaborativo"
+author: "Luis"
+format: 
+  live-revealjs:
+    theme: simple
+---
+
+{{< include ../_extensions/r-wasm/live/_knitr.qmd >}}
+
+## Pull Request
+
+> request for the maintainer to pull your changes into their repo
+
+## Desarrollando en comunidad (GitHub)
+
+. . .
+
+### Necesitamos
+
+::: incremental
+-   Nuestra propia copia del repositorio (en la nube)
+-   Copia local del repositorio (nuestra máquina)
+-   Poder seguir los cambios en el repositorio (ajeno) de interés
+:::
+
+## 
+
+![Happy git with R - Fork and clone](https://happygitwithr.com/img/fork-them-pull-request.jpeg)
+
+## 
+
+![How to Sync Forked Repositories Using Git or Github <br/> Soham Biswas](https://miro.medium.com/v2/resize:fit:786/format:webp/1*IelAxduwS_YtpsrlRe1d0Q.png)
+
+## GitHub en el navegador
+
+Podemos crear nuestras propias copias (forks) de un repositorio, editar en la web, y crear PRs con nuestros cambios.
+
+> Demo: Luiss a correjir ortografia en esta diapozitiba 
+
+## git cli
+
+![git cheat sheet - Julia Evans](https://cdn.masto.host/socialjvnsca/media_attachments/files/112/288/026/870/908/533/original/8cdf198fa52700f6.png)
+
+## `usethis`
+
+Funciones de R para facilitar tareas de desarrollo/git
+
+```{r}
+#| eval: false
+#| echo: true
+usethis::create_from_github("usuario/repositorio")
+```
+
+Hace 'fork', 'clone', y configura la comunicación entre el repositorio remoto y el nuestro
+
+```{r}
+#| eval: false
+#| echo: true
+usethis::pr_init("mi_cambio")
+```
+
+Crea una rama para trabajar
+
+```{r}
+#| eval: false
+#| echo: true
+usethis::pr_push()
+usethis::pr_finish()
+```
+
+Genera el PR en GitHub y nos ayuda a finalizarlo
+
+## ramas
+
+::::: columns
+::: {.column width="50%"}
+![Mastering Git Branches - Pankaj Kholiya](https://miro.medium.com/v2/1*K9scAx1Ezd-KJFabaYseCw.jpeg)
+:::
+
+::: {.column width="50%"}
+-   Espacios de trabajo aislados para trabajar/experimentar sin afectar (romper) el proyecto principal.
+-   Versiones paralelas del proyecto, c/u con su propio historial de cambios
+-   Se pueden descartar o fusionar con el proyecto principal
+:::
+:::::
+
+## git push
+
+Enviar los cambios locales a nuestro fork en GitHub
+
+- En la línea de comandos o con la flecha azul de RStudio
+
+> Siempre hacer pull antes para evitar conflictos
+
+
+## issues
+
+### "asuntos" sobre el contenido de un repositorio
+
+-   recordatorios para quien esté a cargo
+-   errores o bugs
+-   sugerencias de funcionalidad
+
+## issues - práctica
+
+```{webr}
+sample(c("Gera","Mons","Kevin","Diana","Robert"),2)
+```
+
+-   \[1\]\* abre un issue sobre el contenido de `codigo-ej/visscript.R`
+-   \[2\]\* abre un pull request arreglando el problema
+
+
+```{webr}
+para_equipos <- c("Gera","Mons","Kevin","Juli","Diana","Robert","Fabricio")
+sample(para_equipos,floor(length(para_equipos)/2))
+```
+
+## PRs - Individual
+
+Abrir un PR en el archivo `maevo2025.qmd` y agregar una diapositiva con su nombre y la imagen de algún animal que les guste (ver el ejemplo de Luis)
+
+- trabajar con ramas
+- cuando se integre su cambio, correr `usethis::pr_finish()`
+
+
+> Si terminaron rápido, mandar un PR modificando la apariencia de la presentación
+
+# Fin

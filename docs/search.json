@@ -138,5 +138,110 @@
     "title": "  Introducción a Git y Github",
     "section": "O conectarnos con un proyecto creado en Git hub.",
     "text": "O conectarnos con un proyecto creado en Git hub.\nOtros recursos interesantes:\nHappy Git and GitHub for the useR\ngit-developing-software-together"
+  },
+  {
+    "objectID": "ppts/collabLD.html#pull-request",
+    "href": "ppts/collabLD.html#pull-request",
+    "title": "Trabajo Colaborativo",
+    "section": "Pull Request",
+    "text": "Pull Request\n\nrequest for the maintainer to pull your changes into their repo"
+  },
+  {
+    "objectID": "ppts/collabLD.html#desarrollando-en-comunidad-github",
+    "href": "ppts/collabLD.html#desarrollando-en-comunidad-github",
+    "title": "Trabajo Colaborativo",
+    "section": "Desarrollando en comunidad (GitHub)",
+    "text": "Desarrollando en comunidad (GitHub)\n\nNecesitamos\n\nNuestra propia copia del repositorio (en la nube)\nCopia local del repositorio (nuestra máquina)\nPoder seguir los cambios en el repositorio (ajeno) de interés"
+  },
+  {
+    "objectID": "ppts/collabLD.html#section",
+    "href": "ppts/collabLD.html#section",
+    "title": "Trabajo Colaborativo",
+    "section": "",
+    "text": "Happy git with R - Fork and clone"
+  },
+  {
+    "objectID": "ppts/collabLD.html#section-1",
+    "href": "ppts/collabLD.html#section-1",
+    "title": "Trabajo Colaborativo",
+    "section": "",
+    "text": "How to Sync Forked Repositories Using Git or Github  Soham Biswas"
+  },
+  {
+    "objectID": "ppts/collabLD.html#github-en-el-navegador",
+    "href": "ppts/collabLD.html#github-en-el-navegador",
+    "title": "Trabajo Colaborativo",
+    "section": "GitHub en el navegador",
+    "text": "GitHub en el navegador\nPodemos crear nuestras propias copias (forks) de un repositorio, editar en la web, y crear PRs con nuestros cambios.\n\nDemo: Luiss a correjir ortografia en esta diapozitiba"
+  },
+  {
+    "objectID": "ppts/collabLD.html#git-cli",
+    "href": "ppts/collabLD.html#git-cli",
+    "title": "Trabajo Colaborativo",
+    "section": "git cli",
+    "text": "git cli\n\ngit cheat sheet - Julia Evans"
+  },
+  {
+    "objectID": "ppts/collabLD.html#usethis",
+    "href": "ppts/collabLD.html#usethis",
+    "title": "Trabajo Colaborativo",
+    "section": "usethis",
+    "text": "usethis\nFunciones de R para facilitar tareas de desarrollo/git\n\nusethis::create_from_github(\"usuario/repositorio\")\n\nHace ‘fork’, ‘clone’, y configura la comunicación entre el repositorio remoto y el nuestro\n\nusethis::pr_init(\"mi_cambio\")\n\nCrea una rama para trabajar\n\nusethis::pr_push()\nusethis::pr_finish()\n\nGenera el PR en GitHub y nos ayuda a finalizarlo"
+  },
+  {
+    "objectID": "ppts/collabLD.html#ramas",
+    "href": "ppts/collabLD.html#ramas",
+    "title": "Trabajo Colaborativo",
+    "section": "ramas",
+    "text": "ramas\n\n\n\n\n\nMastering Git Branches - Pankaj Kholiya\n\n\n\n\nEspacios de trabajo aislados para trabajar/experimentar sin afectar (romper) el proyecto principal.\nVersiones paralelas del proyecto, c/u con su propio historial de cambios\nSe pueden descartar o fusionar con el proyecto principal"
+  },
+  {
+    "objectID": "ppts/collabLD.html#issues",
+    "href": "ppts/collabLD.html#issues",
+    "title": "Trabajo Colaborativo",
+    "section": "issues",
+    "text": "issues\n“asuntos” sobre el contenido de un repositorio\n\nrecordatorios para quien esté a cargo\nerrores o bugs\nsugerencias de funcionalidad"
+  },
+  {
+    "objectID": "ppts/collabLD.html#issues-práctica",
+    "href": "ppts/collabLD.html#issues-práctica",
+    "title": "Trabajo Colaborativo",
+    "section": "issues-práctica",
+    "text": "issues-práctica\n\n\n\n\n\n\n\n\n\nabrir un issue sobre el contenido de visscript.R"
+  },
+  {
+    "objectID": "ppts/collabLD.html#issues---práctica",
+    "href": "ppts/collabLD.html#issues---práctica",
+    "title": "Trabajo Colaborativo",
+    "section": "issues - práctica",
+    "text": "issues - práctica\n\n\n\n\n\n\n\n\n\n[1]* abre un issue sobre el contenido de codigo-ej/visscript.R\n[2]* abre un pull request arreglando el problema"
+  },
+  {
+    "objectID": "ppts/collabLD.html#prs---individual",
+    "href": "ppts/collabLD.html#prs---individual",
+    "title": "Trabajo Colaborativo",
+    "section": "PRs - Individual",
+    "text": "PRs - Individual\nAbrir un PR en el archivo maevo2025.qmd y agregar una diapositiva con su nombre y la imagen de algún animal que les guste (ver el ejemplo de Luis)\n\ntrabajar con ramas\ncuando se integre su cambio, correr usethis::pr_finish()\n\n\nSi terminaron rápido, mandar un PR modificando la apariencia de la presentación"
+  },
+  {
+    "objectID": "ppts/collabLD.html#git-push",
+    "href": "ppts/collabLD.html#git-push",
+    "title": "Trabajo Colaborativo",
+    "section": "git push",
+    "text": "git push\nEnviar los cambios locales a nuestro fork en GitHub\n\nEn la línea de comandos o con la flecha azul de RStudio\n\n\nSiempre hacer pull antes para evitar conflictos"
+  },
+  {
+    "objectID": "ppts/maevo2025.html#section",
+    "href": "ppts/maevo2025.html#section",
+    "title": "Maevo Lab 2025",
+    "section": "",
+    "text": "Presentación de prueba para hacer Pull Requests\n\nLas diapositivas nuevas se agregan con un encabezado nivel 2 (##)\nPueden usar ‘tags’ de markdown para imágenes ![](aqui-va-el-url)\nSiempre hacer Pull antes de mandar el Push"
+  },
+  {
+    "objectID": "ppts/maevo2025.html#luis",
+    "href": "ppts/maevo2025.html#luis",
+    "title": "Maevo Lab 2025",
+    "section": "Luis",
+    "text": "Luis"
   }
 ]
