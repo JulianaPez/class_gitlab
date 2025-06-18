@@ -18,7 +18,7 @@
     "href": "index.html#material",
     "title": "Materiales del curso",
     "section": "Material",
-    "text": "Material\nIntroduccion\n📆   19 de Junio, 2025\n📆  12:00 - 14:00\n🏨  Sala de video-conferencia Edificio E"
+    "text": "Material\nIntroduccion\nTrabajo Colaborativo\nPresentación p/ ejercicio\n📆   19 de Junio, 2025\n🕛 12:00 - 14:00\n🏨  Sala de video-conferencia Edificio E"
   },
   {
     "objectID": "ppts/gitclass.html#por-qué-git",
@@ -143,15 +143,15 @@
     "objectID": "ppts/collabLD.html#pull-request",
     "href": "ppts/collabLD.html#pull-request",
     "title": "Trabajo Colaborativo",
-    "section": "Pull Request",
-    "text": "Pull Request\n\nrequest for the maintainer to pull your changes into their repo"
+    "section": "",
+    "text": "request for the maintainer to pull your changes into their repo"
   },
   {
     "objectID": "ppts/collabLD.html#desarrollando-en-comunidad-github",
     "href": "ppts/collabLD.html#desarrollando-en-comunidad-github",
     "title": "Trabajo Colaborativo",
     "section": "Desarrollando en comunidad (GitHub)",
-    "text": "Desarrollando en comunidad (GitHub)\n\nNecesitamos\n\nNuestra propia copia del repositorio (en la nube)\nCopia local del repositorio (nuestra máquina)\nPoder seguir los cambios en el repositorio (ajeno) de interés"
+    "text": "Desarrollando en comunidad (GitHub)\n. . .\n\nNecesitamos\n\n\nNuestra propia copia del repositorio (en la nube)\nCopia local del repositorio (nuestra máquina)\nPoder seguir los cambios en el repositorio (ajeno) de interés"
   },
   {
     "objectID": "ppts/collabLD.html#section",
@@ -179,7 +179,7 @@
     "href": "ppts/collabLD.html#git-cli",
     "title": "Trabajo Colaborativo",
     "section": "git cli",
-    "text": "git cli\n\ngit cheat sheet - Julia Evans"
+    "text": "git cli\n\n\n\ngit cheat sheet - Julia Evans"
   },
   {
     "objectID": "ppts/collabLD.html#usethis",
@@ -200,7 +200,7 @@
     "href": "ppts/collabLD.html#issues",
     "title": "Trabajo Colaborativo",
     "section": "issues",
-    "text": "issues\n“asuntos” sobre el contenido de un repositorio\n\nrecordatorios para quien esté a cargo\nerrores o bugs\nsugerencias de funcionalidad"
+    "text": "issues\n\n“asuntos” sobre el contenido de un repositorio\n\nrecordatorios para quien esté a cargo\nerrores o bugs\nsugerencias de funcionalidad"
   },
   {
     "objectID": "ppts/collabLD.html#issues-práctica",
@@ -214,7 +214,7 @@
     "href": "ppts/collabLD.html#issues---práctica",
     "title": "Trabajo Colaborativo",
     "section": "issues - práctica",
-    "text": "issues - práctica\n\n\n\n\n\n\n\n\n\n[1]* abre un issue sobre el contenido de codigo-ej/visscript.R\n[2]* abre un pull request arreglando el problema"
+    "text": "issues - práctica\n\nsample(c(\"Gera\",\"Mons\",\"Kevin\",\"Diana\",\"Robert\"),2)\n\n\n[1]* abre un issue sobre el contenido de codigo-ej/visscript.R\n[2]* abre un pull request arreglando el problema\n\n\npara_equipos &lt;- c(\"Gera\",\"Mons\",\"Kevin\",\"Juli\",\"Diana\",\"Robert\",\"Fabricio\")\nsample(para_equipos,floor(length(para_equipos)/2))"
   },
   {
     "objectID": "ppts/collabLD.html#prs---individual",
@@ -243,5 +243,145 @@
     "title": "Maevo Lab 2025",
     "section": "Luis",
     "text": "Luis"
+  },
+  {
+    "objectID": "ppts/maevo2025.html",
+    "href": "ppts/maevo2025.html",
+    "title": "Maevo Lab 2025",
+    "section": "",
+    "text": "Presentación de prueba para hacer Pull Requests\n\nLas diapositivas nuevas se agregan con un encabezado nivel 2 (##)\nPueden usar ‘tags’ de markdown para imágenes ![](aqui-va-el-url)\nSiempre hacer Pull antes de mandar el Push"
+  },
+  {
+    "objectID": "gitclass.html",
+    "href": "gitclass.html",
+    "title": "  Introducción a Git y Github",
+    "section": "",
+    "text": "¿Tienes los archivos asi en tu compu?\n/home/yani/Documents/Clases/programacion\n├── script.R\n├── tp.Rmd\n├── tp_corregido.Rmd\n├── tp_corregido2.Rmd\n├── tp_final.Rmd\n├── tp_finalfinal.Rmd\n├── este_es_el_final.Rmd\n├── juro_que_esta_es_la_ultima_version_del_tp.Rmd\n└── FINAL.Rmd\nProbablemente todos lo tenemos, o tuvimos algo así en algún momento, porque necesitamos guardar nuestro trabajo pero seguir teniendo acceso a versiones anteriores.\nExiste una solución para esto."
+  },
+  {
+    "objectID": "gitclass.html#por-qué-git",
+    "href": "gitclass.html#por-qué-git",
+    "title": "  Introducción a Git y Github",
+    "section": "",
+    "text": "¿Tienes los archivos asi en tu compu?\n/home/yani/Documents/Clases/programacion\n├── script.R\n├── tp.Rmd\n├── tp_corregido.Rmd\n├── tp_corregido2.Rmd\n├── tp_final.Rmd\n├── tp_finalfinal.Rmd\n├── este_es_el_final.Rmd\n├── juro_que_esta_es_la_ultima_version_del_tp.Rmd\n└── FINAL.Rmd\nProbablemente todos lo tenemos, o tuvimos algo así en algún momento, porque necesitamos guardar nuestro trabajo pero seguir teniendo acceso a versiones anteriores.\nExiste una solución para esto."
+  },
+  {
+    "objectID": "gitclass.html#qué-es-git",
+    "href": "gitclass.html#qué-es-git",
+    "title": "  Introducción a Git y Github",
+    "section": "¿Qué es Git?",
+    "text": "¿Qué es Git?\nGit es un sistema de control de versiones distribuido que permite a múltiples personas trabajar en un proyecto al mismo tiempo sin sobrescribir el trabajo de los demás. Con Git, cada cambio se guarda en un historial, lo que permite volver a versiones anteriores si es necesario. Además, facilita la colaboración y la integración de cambios de diferentes colaboradores."
+  },
+  {
+    "objectID": "gitclass.html#qué-es-github",
+    "href": "gitclass.html#qué-es-github",
+    "title": "  Introducción a Git y Github",
+    "section": "¿Qué es GitHub?",
+    "text": "¿Qué es GitHub?\nGitHub es una plataforma basada en la web que utiliza Git para el control de versiones y la colaboración. Permite a los desarrolladores almacenar sus repositorios de Git en la nube, facilitando el acceso y la colaboración desde cualquier lugar. GitHub también ofrece herramientas adicionales como gestión de proyectos, seguimiento de problemas (issues), y revisión de código."
+  },
+  {
+    "objectID": "gitclass.html#ciclo-del-versionamiento",
+    "href": "gitclass.html#ciclo-del-versionamiento",
+    "title": "  Introducción a Git y Github",
+    "section": "Ciclo del versionamiento",
+    "text": "Ciclo del versionamiento\n\n\n\ntomado de git-developing-software-together"
+  },
+  {
+    "objectID": "gitclass.html#flujo-de-trabajo",
+    "href": "gitclass.html#flujo-de-trabajo",
+    "title": "  Introducción a Git y Github",
+    "section": "Flujo de trabajo:",
+    "text": "Flujo de trabajo:\n\n\n\ntomado de git-developing-software-together"
+  },
+  {
+    "objectID": "gitclass.html#beneficios-de-usar-git-y-github",
+    "href": "gitclass.html#beneficios-de-usar-git-y-github",
+    "title": "  Introducción a Git y Github",
+    "section": "Beneficios de usar Git y GitHub",
+    "text": "Beneficios de usar Git y GitHub\n\nColaboración: Permite a múltiples investigadores trabajar en el mismo proyecto simultáneamente, ideal para colaboraciones entre instituciones o grupos de investigación.\nHistorial de cambios: Mantiene un registro detallado de todos los cambios realizados en el proyecto, fundamental para la reproducibilidad científica.\nReversión de cambios: Facilita la recuperación de versiones anteriores de análisis o manuscritos.\nDocumentación: Ayuda a mantener un registro claro de las decisiones metodológicas y cambios en el análisis de datos.\nComunicación: Mejora la comunicación entre colaboradores y facilita el seguimiento de las contribuciones de cada investigador.\nCiencia abierta: Promueve la transparencia y reproducibilidad de la investigación, permitiendo compartir código y datos de manera efectiva."
+  },
+  {
+    "objectID": "gitclass.html#conclusión",
+    "href": "gitclass.html#conclusión",
+    "title": "  Introducción a Git y Github",
+    "section": "Conclusión",
+    "text": "Conclusión\nGit y GitHub son herramientas valiosas para la comunidad científica. Aunque originalmente fueron diseñadas para el desarrollo de software, son igualmente útiles para gestionar proyectos de investigación. Ya sea que estés trabajando en análisis estadísticos, manuscritos científicos o códigos de procesamiento de datos, estas herramientas te ayudarán a mantener un flujo de trabajo organizado y colaborativo. En este taller, aprenderás a utilizar Git y GitHub para mejorar la reproducibilidad y transparencia de tu investigación."
+  },
+  {
+    "objectID": "gitclass.html#crear-una-cuenta-en-github",
+    "href": "gitclass.html#crear-una-cuenta-en-github",
+    "title": "  Introducción a Git y Github",
+    "section": "Crear una cuenta en GitHub",
+    "text": "Crear una cuenta en GitHub\nGitHub es una de las interfaces y repositorios mundiales mas conocidos y utilizados por quienes desarrollan software y hacen ciencia abierta.\n\nIr a https://github.com/.\nHacer clik en Registrarse or Sign up.\nSeguir las indicaciones para crear la cuenta personal.\nUno de los pasos implica chequear que son una persona y luego validar la direccion de email que usaste para crear la cuenta."
+  },
+  {
+    "objectID": "gitclass.html#nuestro-perfil",
+    "href": "gitclass.html#nuestro-perfil",
+    "title": "  Introducción a Git y Github",
+    "section": "Nuestro perfil",
+    "text": "Nuestro perfil\nUna vez que creamos una cuenta en GitHub, tenemos nuestro perfil publico en internet.\nLa página de tu perfil cuenta la historia de tu trabajo a través de los repositorios en los que te interesas, las colaboraciones que has realizado y las conversaciones que has tenido."
+  },
+  {
+    "objectID": "gitclass.html#información-general",
+    "href": "gitclass.html#información-general",
+    "title": "  Introducción a Git y Github",
+    "section": "Información general:",
+    "text": "Información general:\n\nLugar de trabajo: INECOL\nLocalizacion: Xalapa, Veraxcruz\nZona horaria: 12:51 (UTC -03:00)\nSitio web: https://julianapez.github.io/JHerrera-cv/\nORCID:https://orcid.org/0000-0002-6946-8950\nLinkedIn, BlueSky y Youtube."
+  },
+  {
+    "objectID": "gitclass.html#notificaciones-y-logros",
+    "href": "gitclass.html#notificaciones-y-logros",
+    "title": "  Introducción a Git y Github",
+    "section": "Notificaciones y logros:",
+    "text": "Notificaciones y logros:\nDestacan tu actividad y se muestran si utilizas GitHub"
+  },
+  {
+    "objectID": "gitclass.html#ejercicio",
+    "href": "gitclass.html#ejercicio",
+    "title": "  Introducción a Git y Github",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nEn la esquina superior derecha de GitHub, hace clic en tu foto de perfil y luego en Your profile (Tu perfil).\nEntra a tu perfil, clique en “Edit Profile”, y completa con tus datos relevantes, como por ejemplo una bio, tus pronombres, tus redes sociales, donde estas y tu zona horaria."
+  },
+  {
+    "objectID": "gitclass.html#instalar-git-localmente",
+    "href": "gitclass.html#instalar-git-localmente",
+    "title": "  Introducción a Git y Github",
+    "section": "Instalar git localmente",
+    "text": "Instalar git localmente\nVamos a realizar la instalación para nuestro sistema operativo desde:\nhttps://git-scm.com/downloads"
+  },
+  {
+    "objectID": "gitclass.html#podemos-ejecutar-git-desde-r-studio-en-nuestra-compu-local",
+    "href": "gitclass.html#podemos-ejecutar-git-desde-r-studio-en-nuestra-compu-local",
+    "title": "  Introducción a Git y Github",
+    "section": "Podemos ejecutar git desde R studio en nuestra compu local",
+    "text": "Podemos ejecutar git desde R studio en nuestra compu local\nDebemos revisar dónde esta git y si esta configurado en nuestros settings.\nwhich git.exe"
+  },
+  {
+    "objectID": "gitclass.html#vamos-a-crear-un-proyecto-y-hacer-nuestras-modificacaciones-localmente",
+    "href": "gitclass.html#vamos-a-crear-un-proyecto-y-hacer-nuestras-modificacaciones-localmente",
+    "title": "  Introducción a Git y Github",
+    "section": "Vamos a crear un proyecto y hacer nuestras modificacaciones localmente",
+    "text": "Vamos a crear un proyecto y hacer nuestras modificacaciones localmente\n\nCrear proyecto\nInstalar paquetes: install.packages (c(\"usethis\",\"gitcreds\"))\nconf git: use_git_config(user.name = \"JuliPez\", user.email = \"juliana.herrera.p@gmail.com\")"
+  },
+  {
+    "objectID": "gitclass.html#o-conectarnos-a-github",
+    "href": "gitclass.html#o-conectarnos-a-github",
+    "title": "  Introducción a Git y Github",
+    "section": "O conectarnos a github",
+    "text": "O conectarnos a github\n\nCrear token: create_github_token()\nConectar con Githubgitcreds_set()\nConocer mi conexión gh_token_help()\nConectar mi proyecto use_github()"
+  },
+  {
+    "objectID": "gitclass.html#o-conectarnos-con-un-proyecto-creado-en-git-hub.",
+    "href": "gitclass.html#o-conectarnos-con-un-proyecto-creado-en-git-hub.",
+    "title": "  Introducción a Git y Github",
+    "section": "O conectarnos con un proyecto creado en Git hub.",
+    "text": "O conectarnos con un proyecto creado en Git hub.\n\nOtros recursos interesantes:\nHappy Git and GitHub for the useR\ngit-developing-software-together"
+  },
+  {
+    "objectID": "ppts/collabLD.html",
+    "href": "ppts/collabLD.html",
+    "title": "Trabajo Colaborativo",
+    "section": "",
+    "text": "request for the maintainer to pull your changes into their repo"
   }
 ]
