@@ -1,0 +1,19 @@
+---
+title: "Maevo Lab 2025"
+format: revealjs
+---
+
+# Integrantes del grupo de trabajo
+
+##
+
+Presentación de prueba para hacer Pull Requests
+
+- Las diapositivas nuevas se agregan con un encabezado nivel 2 (`##`)
+- Pueden usar 'tags' de markdown para imágenes `![](aqui-va-el-url)`
+- Siempre hacer Pull antes de mandar el Push
+
+## Luis
+
+![](https://www.logan.qld.gov.au/logan/images/greaterglidernew.png)
+

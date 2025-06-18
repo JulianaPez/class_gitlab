@@ -19,6 +19,11 @@ M. en C. Juliana Herrera Pérez
 
 [Introduccion](ppts/gitclass.qmd){.external target="_blank"}
 
+[Trabajo Colaborativo](ppts/collabLD.qmd){.external target="_blank"}
+
+[Presentación p/ ejercicio](ppts/maevo2025.qmd){.external target="_blank"}
+
+
 [📆   19 de Junio, 2025]{.code}\
 [📆  12:00 - 14:00]{.code}\
 [🏨  Sala de video-conferencia Edificio E]{.code}\
