@@ -5,22 +5,42 @@ format: revealjs
 
 # Integrantes del grupo de trabajo
 
-##
+## 
 
 Presentación de prueba para hacer Pull Requests
 
-- Las diapositivas nuevas se agregan con un encabezado nivel 2 (`##`)
-- Pueden usar 'tags' de markdown para imágenes `![](aqui-va-el-url)`
-- Siempre hacer Pull antes de mandar el Push
+-   Las diapositivas nuevas se agregan con un encabezado nivel 2 (`##`)
+-   Pueden usar 'tags' de markdown para imágenes `![](aqui-va-el-url)`
+-   Siempre hacer Pull antes de mandar el Push
 
 ## Luis
 
 [LuisDVA](https://github.com/luisDVA)
 
 ![](https://www.logan.qld.gov.au/logan/images/greaterglidernew.png)
+
 ## Fabricio
 
 [Fabricio](https://github.com/fabro)
 
 ![](https://static.inaturalist.org/photos/3701640/medium.jpg)
 
+## Jessica
+
+[JeFalcao](https://github.com/JeFalcao)  
+
+![](https://i.ytimg.com/vi/-Uzvc81BNp4/sddefault.jpg)
+
+## Mons
+
+[Mons JD](https://github.com/M-Juarez20)  
+
+![](https://img.freepik.com/premium-photo/flat-2d-illustration-cute-animal_759095-94804.jpg)
+
+
+
+## Diana
+
+[DianaOchoa99](https://github.com/DianaOchoa99)
+
+![](images/coco.jpeg)
