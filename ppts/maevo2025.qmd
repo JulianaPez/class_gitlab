@@ -18,10 +18,13 @@ Presentación de prueba para hacer Pull Requests
 [LuisDVA](https://github.com/luisDVA)
 
 ![](https://www.logan.qld.gov.au/logan/images/greaterglidernew.png)
-## Kevin López-Reyes
-[kevinlopezreyes](https://github.com/kevinlopezreyes)
-![](https://inaturalist-open-data.s3.amazonaws.com/photos/116147972/original.jpeg)
 
+
+## Kevin López-Reyes
+
+[kevinlopezreyes](https://github.com/kevinlopezreyes)
+
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/116147972/original.jpeg)
 
 ## Roberto
 
@@ -43,17 +46,15 @@ Presentación de prueba para hacer Pull Requests
 
 ## Jessica
 
-[JeFalcao](https://github.com/JeFalcao)  
+[JeFalcao](https://github.com/JeFalcao)
 
 ![](https://i.ytimg.com/vi/-Uzvc81BNp4/sddefault.jpg)
 
 ## Mons
 
-[Mons JD](https://github.com/M-Juarez20)  
+[Mons JD](https://github.com/M-Juarez20)
 
 ![](https://img.freepik.com/premium-photo/flat-2d-illustration-cute-animal_759095-94804.jpg)
-
-
 
 ## Diana
 
@@ -63,5 +64,11 @@ Presentación de prueba para hacer Pull Requests
 
 ## Daniel
 
-[DanielVr07](https://github.com/DanielVr07)
-![](https://img.lovepik.com/png/20231114/orca-clipart-cartoon-killer-whale-jumping-in-the-water-is_583320_wh1200.png)
+[DanielVr07](https://github.com/DanielVr07) ![](https://img.lovepik.com/png/20231114/orca-clipart-cartoon-killer-whale-jumping-in-the-water-is_583320_wh1200.png)
+
+
+## Juliana Herrera
+
+[Juliana Pez](https://github.com/JulianaPez)
+
+![](https://img.freepik.com/fotos-premium/gato-traje-buceo-esta-nadando-agua_1011767-92793.jpg)
