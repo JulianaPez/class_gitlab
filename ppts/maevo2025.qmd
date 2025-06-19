@@ -5,13 +5,13 @@ format: revealjs
 
 # Integrantes del grupo de trabajo
 
-##
+## 
 
 Presentación de prueba para hacer Pull Requests
 
-- Las diapositivas nuevas se agregan con un encabezado nivel 2 (`##`)
-- Pueden usar 'tags' de markdown para imágenes `![](aqui-va-el-url)`
-- Siempre hacer Pull antes de mandar el Push
+-   Las diapositivas nuevas se agregan con un encabezado nivel 2 (`##`)
+-   Pueden usar 'tags' de markdown para imágenes `![](aqui-va-el-url)`
+-   Siempre hacer Pull antes de mandar el Push
 
 ## Luis
 
@@ -34,3 +34,8 @@ Presentación de prueba para hacer Pull Requests
 
 
 
+## Diana
+
+[DianaOchoa99](https://github.com/DianaOchoa99)
+
+![](images/coco.jpeg)
