@@ -19,6 +19,12 @@ Presentación de prueba para hacer Pull Requests
 
 ![](https://www.logan.qld.gov.au/logan/images/greaterglidernew.png)
 
+## Gerardo
+
+[GerardoDirzo](https://github.com/GerardoDirzo)
+
+![](https://static.inaturalist.org/photos/1338072/large.jpg)
+
 ## Fabricio
 
 [Fabricio](https://github.com/fabro)
@@ -44,3 +50,4 @@ Presentación de prueba para hacer Pull Requests
 [DianaOchoa99](https://github.com/DianaOchoa99)
 
 ![](images/coco.jpeg)
+
