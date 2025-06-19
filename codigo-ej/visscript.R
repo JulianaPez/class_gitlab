@@ -6,4 +6,3 @@ library(ggplot2)
 penguins |>
   ggplot(aes(species,body_mass,color = species))+
    geom_jitter()
-
