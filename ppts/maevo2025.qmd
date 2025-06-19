@@ -20,4 +20,5 @@ Presentación de prueba para hacer Pull Requests
 ![](https://www.logan.qld.gov.au/logan/images/greaterglidernew.png)
 ## Kevin López-Reyes
 [kevinlopezreyes](https://github.com/kevinlopezreyes)
-![https://inaturalist-open-data.s3.amazonaws.com/photos/116147972/original.jpeg]
+![](https://inaturalist-open-data.s3.amazonaws.com/photos/116147972/original.jpeg)
+
