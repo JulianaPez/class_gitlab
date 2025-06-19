@@ -36,7 +36,7 @@ format:
 
 Podemos crear nuestras propias copias (forks) de un repositorio, editar en la web, y crear PRs con nuestros cambios.
 
-> Demo: Luiss a correjir ortografia en esta diapozitiba 
+> Demo: Luis a corregir ortografía en esta diapositiva
 
 ## git cli
 
